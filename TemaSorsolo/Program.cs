@@ -18,7 +18,7 @@ namespace TemaSorsolo
             {
                 Console.Clear();
                 Console.WriteLine(temak[rnd.Next(temak.Count)]);
-                Console.WriteLine("\nKilépéshez írj be vlamit");
+                Console.WriteLine("\nKilépéshez írj be valamit\nEnter lenyomására új témát generál.");
                 readline = Console.ReadLine();
             }
         }
