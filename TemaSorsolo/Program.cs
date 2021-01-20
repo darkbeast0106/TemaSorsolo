@@ -14,11 +14,12 @@ namespace TemaSorsolo
             List<String> temak = File.ReadAllLines("feladat-temak.txt").ToList();
             string readline = "";
             Random rnd = new Random();
+            //Enter lenyomásra új téma generálása.
             while (readline == "")
             {
                 Console.Clear();
                 Console.WriteLine(temak[rnd.Next(temak.Count)]);
-                Console.WriteLine("\nKilépéshez írj be valamit\nEnter lenyomására új témát generál.");
+                Console.WriteLine("\nAz újboli sorsoláshoz nyomj entert.\nKilépéshez írj be valamit az enter elé.");
                 readline = Console.ReadLine();
             }
         }
