@@ -35,3 +35,6 @@ haszonállatok
 halak
 osztályok
 dolgozók
+anime
+szendvicsek
+macskák
