@@ -14,6 +14,7 @@ namespace TemaSorsolo
             List<String> temak = File.ReadAllLines("feladat-temak.txt").ToList();
             string readline = "";
             Random rnd = new Random();
+            //Enter lenyomásra új téma generálása.
             while (readline == "")
             {
                 Console.Clear();
